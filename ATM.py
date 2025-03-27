@@ -1,6 +1,6 @@
 import random
 import mysql.connector as connector
-database = connector.connect(host="localhost", username="root", password="ali@786",database="atm")
+database = connector.connect(host="localhost", username="root", password="your_password",database="your_database")
 
 # global variables 
 total=0
